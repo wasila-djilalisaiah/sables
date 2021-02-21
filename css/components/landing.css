@@ -1,0 +1,40 @@
+#landing-inline {
+  background-color: white;
+  display:flex;
+  justify-content: space-around;
+  font-family: 'Proxima-Nova', sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+  padding: 10px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px rgb(1 1 1);
+}
+
+@media (max-width: 960px) {
+  #landing-inline a {
+    font-size: 30px :;
+  }
+}
+
+@media (max-width: 720px) {
+  #landing-inline a {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 540px) {
+  #landing-inline a {
+    font-size: 20px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #667B8D;
+  font-weight: bolder.
+}
+
+a:hover {
+  color: black;
+}

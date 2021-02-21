@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Montserrat&family=Quicksand&family=Roboto&display=swap" rel="stylesheet");
+@import url("components/avatar.css");
+@import url("components/container.css");
+@import url("components/card.css");
+@import url("components/landing.css");
+
+body {
+  background-image:url("https://www.wall-decor.fr/782-thickbox_default/panneau-mural-bois-nature.jpg");
+  color: #276fbf;
+  text-align: center;
+  font-family: 'Lora', serif;
+  margin: 0px;
+}
+
+h1, h2, h3, h4, h5{
+  font-family: 'Proxima-Nova', sans-serif;
+  font-weight: bolder;
+}
+
+h1 {
+  text-align: center;
+}
+h3 {
+  color: #276fbf;
+}
+
+h4 {
+  font-size: 30px;
+
+}
+
+.introduction {
+  color: white;
+}
+
+.introduction p {
+  text-align: center;
+}
+
+.list-inline {
+  text-align: center;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+  font-size: 30px;
+}
+
+.list-inline i {
+  color:white;
+}
+
+.list-inline i:hover {
+  color:black;
+  transition: 0.3s;
+}

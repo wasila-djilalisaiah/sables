@@ -1,0 +1,17 @@
+#logo {
+  width :125px;
+  height:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-square {
+  width: 300px;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
